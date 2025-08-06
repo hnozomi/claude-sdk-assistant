@@ -1,0 +1,29 @@
+{
+  "name": "claude-sdk-assistant",
+  "version": "1.0.0",
+  "description": "A development assistant for Claude SDK projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format .",
+    "format:fix": "biome format --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnozomi/claude-sdk-assistant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hnozomi/claude-sdk-assistant/issues"
+  },
+  "homepage": "https://github.com/hnozomi/claude-sdk-assistant#readme",
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.3"
+  }
+}

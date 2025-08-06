@@ -137,3 +137,6 @@ dist
 .vscode/
 *.sublime-project
 *.sublime-workspace
+
+# Claude Code settings
+.claude/
